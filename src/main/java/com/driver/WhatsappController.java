@@ -67,6 +67,7 @@ public class WhatsappController {
         //Throw "User is not a participant" if the user is not a part of the group
         //Change the admin of the group to "user" and return "SUCCESS". Note that at one time there is only one admin and the admin rights are transferred from approver to user.
 
+
         return whatsappService.changeAdmin(approver, user, group);
     }
 
